@@ -71,45 +71,6 @@ a {
     }
 }
 
-/* Buttons */
-/* .btn {
-    padding: 1rem 1.5rem;
-    background: white;
-    border: 1.5px solid var(--borderColor);
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-} */
-
-/* Titles */
-.section-title {
-    margin: 1rem 0 4rem;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: -2rem;
-}
-
-/* .pre-title {
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    color: var(--secondaryTextColor);
-    position: relative;
-    padding-left: 40px;
-    width: fit-content;
-    font-weight: 400;
-    font-size: 0.9rem;
-}
-
-.pre-title::before {
-    content: "";
-    width: 30px;
-    height: 1px;
-    background: var(--lineColor);
-    position: absolute;
-    display: block;
-    left: 0;
-    top: 50%;
-} */
-
 /* Layouts */
 .grid-3 {
     display: grid;
@@ -335,5 +296,87 @@ nav ul li a {
 
 .contact-item-detail h4 {
   margin-bottom: 0.6rem;
+}
+
+
+/* Aboutus - section Yosep*/
+
+#aboutus{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.pict-yosep{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    width: 60%;
+    height: 60%;
+}
+.pict-yosep img{
+    border-radius: 50%;
+    
+}
+
+.yosep-title{
+    font-size: 2rem;
+    align-self: center;
+    margin-top: 23rem;
+    margin-left: -30rem;
+    margin-bottom: 1rem;
+}
+
+.yosep-p2{
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-left: -41rem;
+    margin-bottom: 1rem;
+    margin-top: 2px;
+    
+}
+
+/* AboutUs Section Diana*/
+
+.pict-diana{
+    display: flex;
+    margin-top: 3rem;
+    width: 60%;
+    height: 60%;
+}
+
+.pict-diana img{
+    border-radius: 50%;
+}
+
+.diana-title{
+    font-size: 2rem;
+    align-self: center;
+    margin-top: 23rem;
+    margin-left: -27rem;
+    margin-bottom: 1rem;
+}
+
+.diana-p2{
+    text-align: center;
+    align-self: center;
+    font-size: 1.5rem;
+    margin-left: -41rem;
+    margin-bottom: 1rem;
+    margin-top: 2px;
+    
+}
+
+/* Article Learningpath */
+.article{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+}
+
+.tutorial{
+    margin-left: 20rem;
 }
 

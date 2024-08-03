@@ -1,0 +1,190 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.main-content {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.space {
+    padding-bottom: 1rem;
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: rgb(34, 47, 70);
+}
+
+.right-section {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #c6e7f0;
+
+}
+
+.left-content {
+    padding: 1rem 2rem;
+}
+.profile-diana{
+    width: 100%;
+    border-bottom: 1px solid rgb(11, 17, 27);
+}
+
+.profile-diana img{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #c6e7f0;
+}
+
+.name {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.2px;
+    padding: 1rem 0;
+
+}
+
+.career {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding-bottom: 1rem;
+}
+
+.main-title {
+    font-size: 1.2rem;
+    color: #fffffff1;
+    letter-spacing: 2px;
+    padding-top: 1rem;
+
+}
+
+
+.point ul li a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+
+.point ul{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(11, 17, 27);
+}
+
+.point ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #fffffff1;
+}
+
+.point ul li i {
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    color: #a7cad4; 
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+    
+}
+
+.right-title{
+    letter-spacing: 1px;
+    color: rgb(34, 47, 70);
+    border-bottom: 1px solid rgb(11, 17, 27);
+    padding-bottom: 3px;
+}
+
+.paragraph{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+.sect{
+    padding-bottom: 1.5rem;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 1rem;
+}
+
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: rgb(34, 47, 70);
+}
+
+.para {
+    padding-top: 3px;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.para1 {
+    padding-top: 3px;
+    text-align: justify;
+    padding-bottom: .3rem;
+    padding-left: 2rem;
+}
+.tl-title-1{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: rgb(34, 47, 70);
+    padding-top: 1rem;
+}
+
+.tl-title-1a{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: rgb(34, 47, 70);
+    padding-left: 2rem;
+    padding-top: .5rem
+    ;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: rgb(34, 47, 70);
+}
+
+
+.il-certif{
+    list-style-type: circle;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    
+}
+
+.il-certif a{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    text-align: center;
+    color: #c6e7f0;
+    margin-top: 5rem;
+}

@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000000;
+  --text-color: #000000;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  background-color: #e7dada6c;
+  color: black;
+}
+
+/* common style */
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 15;
+  color: var(--text-color);
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 24;
+  text-transform: uppercase;
+}
+
+.title3 {
+  color: var(--primary-color);
+  font-size: 24;
+  text-transform: uppercase;
+  margin-left: 0rem;
+}
+
+.title2 {
+  color: var(--primary-color);
+  font-size: 20;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  line-height: 2rem;
+}
+
+.uny {
+  color: var(--primary-color);
+  font-size: 18;
+  margin-top: 1rem;
+}
+
+.sub {
+  color: var(--primary-color);
+  font-size: 15;
+}
+
+.sub1 {
+  color: var(--primary-color);
+  font-size: 14;
+}
+
+.description1 {
+  color: var(--primary-color);
+  font-size: 12;
+}
+
+/* layout */
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  padding: 5rem;
+  background: #e7dada6c;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
+  }
+}
+.profile {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+}
+
+.mail {
+  margin-top: 2rem;
+  display: inline-flex;
+  gap: 1rem;
+  max-width: 20px;
+  font-size: 15;
+}
+
+.git {
+  margin-top: 2rem;
+  margin-left: 20rem;
+  display: inline-flex;
+  gap: 1rem;
+  max-width: 20px;
+  font-size: 15;
+}
+
+.home {
+  margin-top: 2rem;
+  margin-left: 15rem;
+  display: inline-flex;
+  gap: 1rem;
+  max-width: 18px;
+  font-size: 15;
+}
+
+.group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* profile */
+.profile_container {
+  display: flex;
+  gap: 2rem;
+}
+.profile_profileImg {
+  max-width: 250px;
+}
+
+.profile_name {
+  font-size: 30;
+}
+.NIM {
+  font-size: 20;
+}
+.TTL {
+  font-size: 15;
+  margin-top: 1rem;
+}
+
+.skill_list {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  line-height: 2rem;
+  font-size: 13;
+}
+
+.uny {
+  margin-top: 1rem;
+  margin-left: 0rem;
+  line-height: 2rem;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.task_list {
+  font-size: 12;
+  margin-left: 1.4rem;
+}
