@@ -1,55 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>LearningCloud</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header Website -->
     <header>
-        <!--Navigation-->
-        <div class="main-container">
-            <div class="nav">
-                <div class="logo">
-                    <a href="/">LearningCloud</a>  <!--Logo pojok kiri atas-->
-                </div>
+      <!--Navigation-->
+      <div class="main-container">
+        <div class="nav">
+          <div class="logo">
+            <a href="/">LearningCloud</a>
+            <!--Logo pojok kiri atas-->
+          </div>
 
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./learningpath.html">Learning Path</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                        <li><a href="./aboutus.html">About Us</a></li>
-                    </ul>
-                </nav>
+          <nav>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./learningpath.html">Learning Path</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./aboutus.html">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
 
-                <div class="burger">
-                    <div class="line-1"></div>
-                    <div class="line-2"></div>
-                    <div class="line-3"></div>
-                </div>
-            </div>   
-        
         <!--End Navigation-->
         <section id="gcp">
-            <div class="title">
-                <h1 class="title"> Study Plan OpenStack </h1>
-                <h3 class="article"> 1. Perbedaan Public Cloud vs Private Cloud </h3>
-                <iframe class="tutorial" width="560" height="315" src="https://www.youtube.com/embed/KmIP0iTGskc?si=L_iJMX1EkLCONGLF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="title">
+            <h1 class="title">Study Plan OpenStack</h1>
+            <h3 class="article">1. Perbedaan Public Cloud vs Private Cloud</h3>
+            <p class="article">
+              Public dan private cloud memiliki karakteristik masing-masing.
+              Untuk detailnya, bisa cek di tabel berikut ya.
+            </p>
+            <table class="article" border="1" cellpadding="10">
+              <tr>
+                <td></td>
+                <td>Private Cloud</td>
+                <td>Public Cloud</td>
+              </tr>
+              <tr>
+                <td>Infrastruktur</td>
+                <td>
+                  Membangun infrastruktur sendiri sehingga akan mengetahui
+                  dimana lokasi hardware.
+                </td>
+                <td>
+                  Infranstruktur terdapat di berbagai lokasi dan hardware akan
+                  dishare dengan pelanggan lain.
+                </td>
+              </tr>
+              <tr>
+                <td>Deployment</td>
+                <td>
+                  Memerlukan perencanaan yang matang dan akan memerlukan proses
+                  yang lama.
+                </td>
+                <td>
+                  Dapat melakukan deployment resource dengan waktu yang sangat
+                  singkat.
+                </td>
+              </tr>
+              <tr>
+                <td>Pengelolaan</td>
+                <td>
+                  Infrastruktur dikelola sendiri sehingga perlu seseorang yang
+                  memiliki knowledge untuk mengelola.
+                </td>
+                <td>
+                  Pihak penyedia cloud akan mengelola infrastruktu, pelanggan
+                  tidak perlu memikirkan hal ini.
+                </td>
+              </tr>
+              <tr>
+                <td>Biaya</td>
+                <td>
+                  Akan memakan biaya yang sangat mahal diawal namun terpedriksi.
+                </td>
+                <td>
+                  Biaya di awal murah namun tidak terpedriksi dan bahkan jika
+                  penggunaan resource banyak bisa menjadi lebih mahal dari
+                  private cloud.
+                </td>
+              </tr>
+            </table>
+            <p class="article">
+              Simak video berikut juga untuk referensi lainnya.
+            </p>
 
-                <h3 class="article"> 2. Pengenalan OpenStack</h3>
-                <iframe class="tutorial" width="560" height="315" src="https://www.youtube.com/embed/AHYjw21_56E?si=ATqJCprH7nfnogCb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+              class="tutorial"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/KmIP0iTGskc?si=L_iJMX1EkLCONGLF"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
 
-                <h3 class="article"> 3. Deploy OpenStack </h3>
-                <iframe class="tutorial" width="560" height="315" src="https://www.youtube.com/embed/xKSRJOa5SqQ?si=3MLwM8PhF8xBNhgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="article">2. Pengenalan OpenStack</h3>
+            <iframe
+              class="tutorial"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/AHYjw21_56E?si=ATqJCprH7nfnogCb"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
 
-                <h3 class="article"> 4. [Computing] Membuat Instance di OpenStack </h3>
-                <iframe class="tutorial" width="560" height="315" src="https://www.youtube.com/embed/B4-njWAf5Nw?si=4E8vU2ymEe94mK0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="article">3. Deploy OpenStack</h3>
+            <iframe
+              class="tutorial"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/xKSRJOa5SqQ?si=3MLwM8PhF8xBNhgR"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
 
-                <h3 class="article"> 5. [Networking] Network di Openstack</h3>
-                <iframe class="tutorial" width="560" height="315" src="https://www.youtube.com/embed/zPtC73RqjVE?si=-95zkD9ztGsvSNpb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <h3 class="article">
+              4. [Computing] Membuat Instance di OpenStack
+            </h3>
+            <iframe
+              class="tutorial"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/B4-njWAf5Nw?si=4E8vU2ymEe94mK0w"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
 
+            <h3 class="article">5. [Networking] Network di Openstack</h3>
+            <iframe
+              class="tutorial"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/zPtC73RqjVE?si=-95zkD9ztGsvSNpb"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </section>
+      </div>
+    </header>
+  </body>
+</html>
