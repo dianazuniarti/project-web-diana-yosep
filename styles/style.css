@@ -1,33 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
- --primaryTextColor: #232e35; /* Untuk title atau judul */
- --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
- --borderColor: #f1f1f1;
- --lineColor: #d9d9d9; /* untuk line di pre-title */
- 
- --primaryBackgroundColor: #fff;
- --secondaryBackgroundColor: #fbfbfb;
- --thirdBackgroundColor: #f5f3fe;
- 
- --primaryIconColor: #7e74f1;
- --primaryIconColorHover: #5d51e8;
- 
- --sectionPadding: 6rem 0;
- --itemBorderRadius: 0.7rem;
+  --primaryTextColor: #232e35; /* Untuk title atau judul */
+  --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
+  --borderColor: #f1f1f1;
+  --lineColor: #d9d9d9; /* untuk line di pre-title */
+
+  --primaryBackgroundColor: #fff;
+  --secondaryBackgroundColor: #fbfbfb;
+  --thirdBackgroundColor: #f5f3fe;
+
+  --primaryIconColor: #7e74f1;
+  --primaryIconColorHover: #5d51e8;
+
+  --sectionPadding: 6rem 0;
+  --itemBorderRadius: 0.7rem;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 
 h1,
 h2,
@@ -35,14 +34,13 @@ h3,
 h4,
 h5,
 h6,
-
 strong {
   color: var(--primaryTextColor);
 }
 
 p {
-    font-size: 1rem; /* 16 px */
-    line-height: 1.9rem; /*30.4 px */
+  font-size: 1rem; /* 16 px */
+  line-height: 1.9rem; /*30.4 px */
 }
 
 p,
@@ -55,170 +53,154 @@ li {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* End Preparation */
 
 .main-container {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1200px) {
-    .main-container {
-      width: 90%;
-    }
+  .main-container {
+    width: 90%;
+  }
 }
 
 /* Layouts */
 .grid-3 {
-    display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; use this first, use code below when its time for explaining responsive design part */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; use this first, use code below when its time for explaining responsive design part */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
 }
 
 /* --- Logo and Navigation Menu --- */
 .nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
 }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 3rem;
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
 }
 
 /* Logo */
 .logo {
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .logo a {
-    color: var(--primaryIconColorHover);
+  color: var(--primaryIconColorHover);
 }
 
 /* Navigation Menu */
 nav ul li {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-  
+
 nav ul li a {
-    color: var(--primaryTextColor);
-}
-
-/* Burger - Save for later on video */
-.burger div {
-    width: 25px;
-    height: 2px;
-    background-color: #000;
-    margin: 7px;
-    transition: all 0.3s;
-    z-index: 99;
-}
-
-.burger {
-    display: none;
-    z-index: 99;
-    position: fixed;
-    top: 33px;
-    right: 35px;
+  color: var(--primaryTextColor);
 }
 
 /* cloud Section */
 #cloud {
-    height: 720px;
-    display: grid;
-    margin-top: -2rem;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+  height: 720px;
+  display: grid;
+  margin-top: -3rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
-
 
 .cloud-name {
-    font-size: 3rem;
-    font-weight: 700;
-    margin: -8rem 0 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: -8rem 0 1rem;
 }
-  
+
 .cloud-name span {
-    color: var(--primaryIconColor) !important;
+  color: var(--primaryIconColor) !important;
 }
-  
+
 .cloud-right img {
-    width: 600px;
-    margin-bottom: 4rem;
+  width: 600px;
+  margin-bottom: 4rem;
 }
-  
+
 .cloud-right {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* learningpath section */
 #learningpaths {
-    padding: var(--sectionPadding);
+  padding: var(--sectionPadding);
 }
 
 .learningpath {
-    border-radius: var(--itemBorderRadius);
-    overflow: hidden;
-    border: 1px solid var(--borderColor);
+  border-radius: var(--itemBorderRadius);
+  overflow: hidden;
+  border: 1px solid var(--borderColor);
 }
-
+.section-title {
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
 .learningpath-cover {
-    height: 350px
+  height: 350px;
 }
 
 .learningpath img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .learningpath-info {
-    padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
-.learningpath-title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+.learningpath-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .learningpath h4 {
-    font-weight: 500;
-    font-size: 1.30rem;
-    color: var(--primaryIconColor);
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--primaryIconColor);
 }
 
 .learningpath-title a svg:hover {
-    fill: var(--primaryIconColor);
+  fill: var(--primaryIconColor);
 }
 
 .learningpath-title a svg {
-    transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .learningpath-tags {
-    display: flex;
-    gap: 1rem;
-    margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
 .learningpath-tags div {
-    font-size: 0.9rem;
-    border: 1px solid var(--borderColor);
-    padding: 0.4rem 1rem;
-    color: var(--secondaryTextColor);
+  font-size: 0.9rem;
+  border: 1px solid var(--borderColor);
+  padding: 0.4rem 1rem;
+  color: var(--secondaryTextColor);
 }
 
 /* contact section */
@@ -229,6 +211,12 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 3rem;
+}
+
+.centered {
+  text-align: center;
+  margin-top: -100px;
+  margin-bottom: 50px;
 }
 
 .contact-form div {
@@ -298,85 +286,80 @@ nav ul li a {
   margin-bottom: 0.6rem;
 }
 
-
 /* Aboutus - section Yosep*/
 
-#aboutus{
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+#aboutus {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
 }
 
-.pict-yosep{
-    display: flex;
-    margin-top: 3rem;
-    margin-left: 10rem;
-    width: 60%;
-    height: 60%;
+.pict-yosep {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 10rem;
+  width: 60%;
+  height: 60%;
 }
-.pict-yosep img{
-    border-radius: 50%;
-    
-}
-
-.yosep-title{
-    font-size: 2rem;
-    align-self: center;
-    margin-top: 23rem;
-    margin-left: -30rem;
-    margin-bottom: 1rem;
+.pict-yosep img {
+  border-radius: 50%;
 }
 
-.yosep-p2{
-    text-align: center;
-    align-self: center;
-    font-size: 1.5rem;
-    margin-left: -41rem;
-    margin-bottom: 1rem;
-    margin-top: 2px;
-    
+.yosep-title {
+  font-size: 2rem;
+  align-self: center;
+  margin-top: 23rem;
+  margin-left: -30rem;
+  margin-bottom: 1rem;
+}
+
+.yosep-p2 {
+  text-align: center;
+  align-self: center;
+  font-size: 1.5rem;
+  margin-left: -41rem;
+  margin-bottom: 1rem;
+  margin-top: 2px;
 }
 
 /* AboutUs Section Diana*/
 
-.pict-diana{
-    display: flex;
-    margin-top: 3rem;
-    width: 60%;
-    height: 60%;
+.pict-diana {
+  display: flex;
+  margin-top: 3rem;
+  width: 60%;
+  height: 60%;
 }
 
-.pict-diana img{
-    border-radius: 50%;
+.pict-diana img {
+  border-radius: 50%;
 }
 
-.diana-title{
-    font-size: 2rem;
-    align-self: center;
-    margin-top: 23rem;
-    margin-left: -27rem;
-    margin-bottom: 1rem;
+.diana-title {
+  font-size: 2rem;
+  align-self: center;
+  margin-top: 23rem;
+  margin-left: -27rem;
+  margin-bottom: 1rem;
 }
 
-.diana-p2{
-    text-align: center;
-    align-self: center;
-    font-size: 1.5rem;
-    margin-left: -41rem;
-    margin-bottom: 1rem;
-    margin-top: 2px;
-    
+.diana-p2 {
+  text-align: center;
+  align-self: center;
+  font-size: 1.5rem;
+  margin-left: -41rem;
+  margin-bottom: 1rem;
+  margin-top: 2px;
 }
 
 /* Article Learningpath */
-.article{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 5rem;
+.article {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
 }
 
-.tutorial{
-    margin-left: 20rem;
+.tutorial {
+  margin-left: 20rem;
 }
-
