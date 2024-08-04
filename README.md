@@ -55,7 +55,7 @@
 
 ### ☁️ About Us - Detail Diana
 <p align="center">
-  <img src="./result/cv-yosep.png">
+  <img src="./result/cv-diana.png">
 </p>
 
 # Terimakasih 
