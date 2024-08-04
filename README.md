@@ -4,7 +4,7 @@
 - Yosep Kusuma Wibawa (230401010362)
 
 ## Link Website :
-[100DaysOfCloud/100DaysOfCloud Journey Template](http://learningcloud.site/)
+[Website Learning Cloud](http://learningcloud.site/)
 #
 ## Hasil Website : 
 ### ☁️ Home
